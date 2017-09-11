@@ -140,7 +140,7 @@ def newTest():
     sepalLength = input("\nEnter sepal length: ")
     sepalWideth = input("\nEnter sepal width: ")
 
-    if (sepalLength > X) and sepalWidth > Y):
+    if (sepalLength > X and sepalWidth > Y):
         print('Result: Setosa')
     else:
         print('Result: Versicolor')
